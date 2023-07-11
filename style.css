@@ -1,0 +1,209 @@
+html{ scroll-behavior: smooth;}
+
+#body{
+    height: 105vh;
+    margin-bottom: 10%;
+}
+
+#navbar {
+    background-color: #12303c;
+    border-bottom: solid white;
+    border-width: 1px;
+}
+
+#myself-image {
+    height: 628px;
+}
+
+#introduction{
+    background: url(./images/mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: auto;
+    height: 105vh;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+    font-size: 70px;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sley {
+    text-decoration: underline 4px;
+}
+
+#body-text{
+    color: #1F1D36;
+}
+
+#skills-head {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-weight: lighter;
+    border-bottom: double #12303c;
+}
+
+#skills-1{
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#skills-2{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#footer{
+    background-color: #444444;
+}
+
+#copywrite-text{
+    color: #F6F1E9;
+}
+
+.logo{
+    display: inline-flex;
+    justify-content: start;
+    align-items: start;
+}
+hr {
+    border: dotted #03001C 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+#projects-head {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 50px;
+    font-size: 50px;
+    border-bottom: double #12303c;
+    padding-bottom: 15px;
+}
+
+#picture-frame {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+
+#project-name{
+    color: #03001C;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+
+.jects {
+    text-decoration: underline 2px;
+}
+
+.ills{
+    text-decoration: underline 2px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #1F1D36;
+}
+
+#software {
+    text-decoration: underline 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#head-buttons {
+    padding-bottom: 20px;
+}
+
+.skiils {
+    padding-top: 15px;
+}
+
+#Tindog-Project{
+    color: #03001C;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+
+#tindog-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+}
+
+#footer-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#footer-image1{
+    flex: 1;
+    margin-left: 450px;
+
+}
+
+#footer-image2{
+    flex: 1;
+    
+}
+
+#footer-image3{
+    flex: 1;
+    margin-right: 450px;
+    
+}
+
+@media screen and (max-width: 500px){
+    #footer-image1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #footer-image2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #footer-image3{
+        width: 100%;
+    }
+}
