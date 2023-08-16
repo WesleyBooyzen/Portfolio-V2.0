@@ -34,21 +34,21 @@
           <div class="logo">
           <ul class="nav nav-pills">
             <li class="nav-item text-light">
-              <a href="#" class="nav-link text-light" aria-current="page"
+              <a href="#introduction" class="nav-link text-light" aria-current="page"
                 >Home</a
               >
             </li>
             <li class="nav-item text-light">
-              <a href="skills" class="nav-link text-light">Who I Am</a>
+              <a href="#body-text" class="nav-link text-light">Who I Am</a>
             </li>
             <li class="nav-item">
-              <a href="projects" class="nav-link text-light">My Skills</a>
+              <a href="#skills" class="nav-link text-light">My Skills</a>
             </li>
             <li class="nav-item">
-              <a href="about" class="nav-link text-light">Projects</a>
+              <a href="#projects" class="nav-link text-light">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="about" class="nav-link text-light">About</a>
+              <a href="#footer" class="nav-link text-light">About</a>
             </li>
           </ul>
       </div>
@@ -56,16 +56,20 @@
   </header>
     </section>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+
     <!-- Introduction Section -->
     <section id="introduction">
-      <div class="container">
-        <h1>Meet We<span class="sley">sley Booyzen...</span></h1>
-        <h3>a passion for programming and development</h3>
+      <div class="container-animation">
+        <h1 class="Meet-me">Meet We<span class="sley">sley Booyzen...</span></h1>
+        <h3>a passion for <span id="title-span"> </span></h3>
         <div class="d-flex gap-2 justify-content-center py-5">
           <button class="btn btn-outline-light d-inline-flex align-items-center" type="button">
-            Let's Dive In!
+            <a href="#body">
+            <span>Let's Dive In!</span>
             <svg class="bi ms-1" width="20" height="20"><use xlink:href="#arrow-right-short"></use></svg>
           </button>
+        </a>
         </div>
       </div>
     </section>
@@ -82,6 +86,7 @@
               width="400"
               height="400"
               loading="lazy"
+              id="profile-photo"
             />
           </div>
           <div class="col col-lg col-sm col-md">
@@ -92,15 +97,14 @@
               them with better gpu's, cpu's, RAM and ROM. I followed my fathers footsteps into becoming a full time farmer, but it did not work out in South-Africa. <br>After months of research, I finally got the credit score to take out a loan and study. I enrolled at Hyperion Development's Software Engineer Bootcamp and completed my Bootcamp. After my Bootcamp I started studying for Full Stack Web Development to incorporate Python and Django to make a robust, user-friendly and modern websites.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start" id="head-buttons">
-              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 mt-5">
-                Jump Right In
-              </button>
+              <a href="WG Booyzen CV(SE).pdf" download="WG Booyzen CV">
               <button
                 type="button"
                 class="btn btn-outline-dark btn-lg px-4 mt-5"
               >
-                Download Resume
+                <span>Download Resume</span>
               </button>
+            </a>
             </div>
           </div>
         </div>
@@ -128,6 +132,9 @@
                 <br>
                 <img src="./images/CSS3.png" alt="css" height="30px" width="30px">
                 CSS: Grid
+                <br>
+                <img src="./images/JavaScript.png" alt="javascript" height="30px" width="30px">
+                JavaScript
                 </div>
                 <div class="col-lg-6" id="skills-2">
                   <img src="./images/Bootstrap.png" alt="bootstrap 5" height="30px" width="50px">
@@ -185,8 +192,7 @@
     <!-- Footer -->
     <section id="footer">
         <footer class="py-1">
-          <div class="container">
-            <div class="row" id="footer-images">
+          <div class="flex-container">
               <div class="column" id="footer-image1">
                   <a href="https://www.facebook.com/profile.php?id=100008730974498">
                   <img src="./images/facebook.png" alt="facebook" height="30px" width="35px" id="facebook" style="image-rendering: optimizeQuality;"></a>
@@ -199,12 +205,18 @@
                   <a href="www.linkedin.com/in/wesley-booyzen-b4b751179">
                   <img src="./images/linkedin.png" alt="linkedin" height="30px" width="35px" id="linkedin" style="image-rendering: optimizeQuality;"></a>
                 </div>
-            </div>
+                <div class="column" id="footer-image4">
+                  <a href="mailto:wesley.booyzen29@gmail.com" type="submit">
+                    <img src="./images/gmail.png" alt="Gmail" height="30px" width="35px" id="gmail"
+                    style="image-rendering: optimizeQuality;">
+                  </a>
+                </div>
           </div>
           <div class="container mx-5 mb-5">
             <p class="text-start" id="copywrite-text">© 2023 Wesley B.</p>
           </div>
         </footer>
     </section>
+    <script src="./index.js"></script>
   </body>
 </html>
